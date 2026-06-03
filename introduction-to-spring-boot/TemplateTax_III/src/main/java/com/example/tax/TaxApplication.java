@@ -31,23 +31,7 @@ public class TaxApplication {
 			}
 			Tax tax = (Tax) context.getBean(taxChoice);
 
-/**
- Follow the below steps to complete the application:
 
-    Step 1: Check if the user has paid the tax already, if yes then print the below message on console:
-
-	    "You have already paid Income/Property(get this getTaxType() interface method) tax."
-
-	Step 2: If the user has not paid tax then do the following:
-
-		- Take the input of income/property value from the user based on the choice made & set this
-          amount using setTaxableAmount() interface method.
-
- 	    - Finally calculate the taxAmount using calculateTaxAmount() interface method & ask user if
-          he wants to pay the tax, if yes call then call payTax() method.
-**/
-
-			/* code here */
 		
 		if(tax.isTaxPayed()){
 
